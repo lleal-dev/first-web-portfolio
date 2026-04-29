@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: Poppins;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0px auto;
+  position: relative;
+}
+
+main {
+  margin-top: 0px;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+/* MENU DO HEADER */
+
+h1 {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px auto;
+  padding: 0px 20px;
+  max-width: 1080px;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.menu {
+  top: 0px;
+  margin-right: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #3a3a3c;
+  color: white;
+  text-align: right;
+  padding: 20px 10px;
+  position: fixed;
+  background-color: #00abd9;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.menu a:visited {
+  text-decoration: none;
+}
+
+/* SOBRE E FOTO DE PERFIL */
+
+.conteudo {
+  max-width: 1080px;
+  display: flex;
+  gap: 20px;
+}
+
+.conteudo ul {
+  padding: 0px;
+  margin: 0px;
+}
+#sobre {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: #00abd9;
+  color: white;
+}
+
+#sobre h2 {
+  margin: 0px;
+  font-size: 40px;
+}
+#sobre p {
+  margin-top: -10px;
+  font-size: 21px;
+}
+
+#sobre div {
+  padding: 15px;
+  text-align: justify;
+}
+#sobre h3 {
+  margin: 0px;
+}
+#sobre p:nth-child(2) {
+  margin: 0px;
+  font-size: 14px;
+}
+
+#profile {
+  margin-top: -70px;
+  width: 80%;
+  border: 3px solid #00abd9;
+}
+
+/* BARRA ESQUERDA COM INFORMAÇÕES SOBRE MIM */
+
+.left-bar {
+  padding: 0px 20px 50px;
+  width: 360px;
+  height: 1630px;
+  background-color: #3a3a3c;
+}
+.left-bar hr {
+  margin-left: -20px;
+  max-width: 250px;
+}
+
+.left-status li {
+  margin-left: 25px;
+}
+
+.left-status h3 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: #00abd9;
+  font-size: 24px;
+}
+
+.left-status p,
+h4 {
+  margin: 0px;
+  color: white;
+  font-size: 18px;
+}
+.left-status h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.left-status p:nth-child(3) {
+  font-size: 14px;
+}
+
+.left-status li {
+  margin: 15px;
+  font-size: 18px;
+  color: white;
+}
+
+/* PAINEL COM PORTIFOLIO E EXPERIENCIAS */
+
+.experiencias {
+  width: 100vh;
+  margin: 15px 0px 200px 0px;
+  padding: 10px 10px;
+  border-left: double 6px #b5b5b8;
+}
+
+.experiencias h3 {
+  width: 420px;
+  height: 50px;
+  padding-left: 10px;
+  margin: -10px 0px 0px -25px;
+  background-color: #3a3a3c;
+  color: white;
+  border-radius: 0px 25px 25px 0px;
+  align-content: center;
+}
+
+.experiencias h4 {
+  color: #00abd9;
+  font-size: 24px;
+}
+
+.experiencias li {
+  list-style: disc;
+  margin: 40px 12px;
+  padding-left: 30px;
+  width: 680px;
+}
+
+.experiencias li::marker {
+  color: #00abd9;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.experiencias p {
+  width: 550px;
+}
+
+.experiencias p:nth-child(2) {
+  margin: 0px;
+  font-size: 20px;
+  color: #3a3a3c;
+  font-weight: bold;
+}
+
+.experiencias p:nth-child(3) {
+  margin: 0px;
+  color: #3a3a3c;
+}
+
+#portifolio a {
+  width: 250px;
+  color: #3a3a3c;
+}
+
+#portifolio a:visited {
+  color: #3a3a3c;
+}
+
+#portifolio li {
+  margin: 40px 12px;
+}
+
+#kombi:hover {
+  transform: scale(1.05);
+}
+
+/* RODAPE COM CONTATO E SOCIAL */
+
+#contact {
+  color: white;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 260px;
+  background-color: #00abd9;
+  width: 750px;
+  height: 250px;
+}
+
+#contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 10px 30px;
+  border: double 6px white;
+}
+
+.social li {
+  margin: 10px 0px;
+}
